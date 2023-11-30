@@ -1,0 +1,10 @@
+{
+    "app": "python3 app.py",
+    "context": {
+        "environment": {
+            "AWS_REGION": "us-east-1",
+            "EVENT_BUS_NAME": "cross-account-target-event-bus",
+            "CROSS_ACCOUNT_EVENTBRIDGE_RULE_ROLE": "arn:aws:iam::132203039747:root"
+        }
+    }
+}
